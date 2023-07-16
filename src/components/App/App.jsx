@@ -1,7 +1,7 @@
 import React from 'react';
 import Notiflix from 'notiflix';
 import { Searchbar } from '../Searchbar/Searchbar';
-import { fetchPictures } from '/src/services/apiService'; // імпорт функції fetchPictures
+import { fetchPictures } from '../services/apiService'; // імпорт функції fetchPictures
 import { ImageGallery } from '../ImageGallery/ImageGallery';
 import { Loader } from '../Loader/Loader';
 import { Button } from '../Button/Button';
